@@ -6,7 +6,7 @@ import requests
 
 load_dotenv()
 API_KEY = os.getenv("OPENROUTER_API_KEY")
-MODEL_NAME = os.getenv("MODEL_NAME", "nvidia/nemotron-3-ultra-550b-a55b:free")
+MODEL_NAME = os.getenv("MODEL_NAME", "**************************")
 OPENROUTER_URL = "https://api.openrouter.ai/v1/chat/completions"
 
 app = Flask(__name__)
